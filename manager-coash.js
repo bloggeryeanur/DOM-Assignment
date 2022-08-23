@@ -1,15 +1,3 @@
-/* 
-all player button = btn-select
-per player const = per-player
-inpur player amount field = player-field
-player total cost = player-calculate
-show total player cost = show-total
-final calculate total btn = calculate-total
-final calculate total cosnt show = show-final-cost
-manager
-coash
- */
-
 document.getElementById('calculate-total').addEventListener('click', function () {
 
    //Mamnager

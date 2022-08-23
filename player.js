@@ -1,11 +1,3 @@
-/* 
-all player button = btn-select
-per player const = per-player
-inpur player amount field = player-field
-player total cost = player-calculate
-show total player cost = show-total
- */
-
 document.getElementById('player-calculate').addEventListener('click',function(){
  
     //get per player default const value
