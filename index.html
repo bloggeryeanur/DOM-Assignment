@@ -31,7 +31,7 @@
                             <h5 id="meesi" class="card-title mt-3">Lionel Messi</h5>
                             <p>36 Goals . 120 Assist</p>
                             <div class="d-grid gap-2 col-6 mx-auto">
-                                <button id="btn-select" class="btn btn-primary mb-3" type="button">
+                                <button id="btn-messi" class="btn btn-primary mb-3" type="button">
                                     SELECT
                                 </button>
                             </div>
@@ -63,8 +63,8 @@
                                     SELECT
                                 </button>
                             </div>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> 
                 </div>
                 <div class="col">
                     <div class="card h-100">
@@ -118,7 +118,23 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <div class="card-body bg-dark text-white text-center"></div>
+                        <div class="card-body bg-dark text-white text-center">
+                            <div class="player">
+                                <h2>Budget</h2>
+                                <p>Per Player $<span id="per-player">100</span> </p>
+                                <input id="player-field" type="text" placeholder="per player cost 100">
+                                <button id="player-calculate" class="btn btn-primary mt-2">Calculate</button>
+                                <p>Player Expences $<span id="show-total"></span> </p>
+                            </div>
+                            <div class="managet-coash">
+                                <p>Manager</p>
+                                <input id="manager" type="text" placeholder="Managet cost">
+                                <p>Coash</p>
+                                <input id="coash" type="text" placeholder="Coash cost ">
+                                <button id="calculate-total" class="btn btn-primary mt-2">Calculate Total</button>
+                                <h3>Final Cost $<span id="show-final-cost">00</span> </h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
@@ -172,7 +188,10 @@
         </span>
         <p class="text-center py-3">Copyright &copy 2022 All Rights Reserved.</p>
     </footer>
-    <script src="app-js/index.js"></script>
+
+    <script src="select.js"></script>
+    <script src="manager-coash.js"></script>
+    <script src="player.js"></script>
 </body>
 
 </html>
