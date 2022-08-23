@@ -13,7 +13,7 @@ function selectPlayers(select) {
         // set player count
         document.getElementById('per-player').innerText = names.length;
 
-        // call the function 
+        // call the function .
         showPlayerNames(names);
 
         // disapbe button
